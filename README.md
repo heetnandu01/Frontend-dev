@@ -1,3 +1,3 @@
 # Frontend-dev
 
-Learning fromtend to get better at design and building ui
+Learning frontend to get better at designs 
