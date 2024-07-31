@@ -1,0 +1,100 @@
+li{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+
+.html{
+    color:#F36327;
+}
+.css{
+    color:#2B65F1;
+}
+.js{
+    color: #F8DB4E;
+}
+.react{
+    color:#05D6FA;
+}
+.angular{
+    color:#B324F4;
+}
+.tailwind{
+    color:#33A6DD;
+}
+
+/* .class name is called as  class selector */
+
+
+/* #html{
+    font-size: 35px;
+}
+#css{
+    font-size: 35px;
+}
+
+#js{
+    font-size: 32px;
+}
+
+#react{
+    font-size: 35px;
+}
+
+#angular{
+    font-size: 35px;
+}
+
+#tailwind{
+    font-size: 35px;
+} */
+/* #id name is called as id selector */
+
+[class]{
+    background-color: greenyellow;
+}
+
+/* this is attribute selector */
+
+
+ul p{
+    background-color: green;
+}
+
+/* this is combinator selector */
+
+h1:hover{
+    color: blue;
+}
+[heet= "coder"]:hover{
+    color: orange;
+}
+
+ul p:hover{
+    color: orchid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
