@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+
+/* height and width basically affects the height and width of the area */
+
+
+
+
+
+.one{
+    background-color: aquamarine;
+    color: cornflowerblue;
+    width: 300px;
+    padding: 25px;
+    margin: 40px;
+    border: 4px solid green;
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+    /* word-break: break-all; */
+     /* dont use the above property it is not good for users  */
+   
+}
+.one-child{
+    width:50%;
+    
+}
+.two{
+    background-color:burlywood;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    margin: 40px;
+    border: 8px solid hotpink;
+    /* border-radius: 50%; */
+
+}
+
+
+
