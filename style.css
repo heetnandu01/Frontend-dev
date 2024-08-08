@@ -1,0 +1,55 @@
+div{
+    position: relative;
+    background-color: chartreuse;
+    /* top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px; */
+    /* inset: 5px; */
+    /* unset basically changes any position to its original position */
+}
+
+ul{
+    position:relative ;
+}
+
+.css-element{
+    background-color: aquamarine;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px; 
+    bottom: 5px;
+    inset: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
