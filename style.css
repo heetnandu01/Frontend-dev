@@ -1,26 +1,9 @@
-div{
+main{
+    height: 400px;
+    width: 600px;
+    /* background-color: blueviolet; */
     position: relative;
-    background-color: chartreuse;
-    /* top: 5px;
-    bottom: 5px;
-    left: 5px;
-    right: 5px; */
-    /* inset: 5px; */
-    /* unset basically changes any position to its original position */
-}
 
-ul{
-    position:relative ;
-}
-
-.css-element{
-    background-color: aquamarine;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px; 
-    bottom: 5px;
-    inset: 50px;
 }
 
 
@@ -29,27 +12,36 @@ ul{
 
 
 
+.box{
+    width: 300px;
+    height: 150px;
+    background-color: green;
+    background-image: url(https://imgs.search.brave.com/K5gcDm2rh4cTJSU1PSr2UkKTNKKahwzmAhG1rLYF51E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvem9yby1waWN0/dXJlcy04bnYwYzBu/YjdyaWpmNnoyLmpw/Zw);
+    background-size: auto;
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */
+    /* transform: scale(5); */
+    /* transform-origin:100% 100%; */
+
+    /* transform: rotate(45deg); */
+    /* transform: translateX(100px);
+    transform: translateY(100px); */
+
+    transform: translateX(50%);
+    /* margin-top: 100px; */
 
 
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) ;
 
 
+    box-shadow: 10px 10px 4px rgba(0, 0, 0,0.4);
+    text-shadow:2px 2px rgb(239, 58, 58) ;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h1{
+    text-shadow: 2px 2px 4px #ff0000;
+}
