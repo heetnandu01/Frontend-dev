@@ -1,47 +1,48 @@
-main{
-    height: 400px;
-    width: 600px;
-    /* background-color: blueviolet; */
-    position: relative;
-
+body{
+    background-color: #D4E0EE;
+    font-family: cursive;
+    text-align: center;
 }
 
 
+.card{
+    position: absolute;
+    margin: auto;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    inset: 0;
+    width: 302px;
+    height: 470px;
+    max-width: 302px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.299)
+}
 
-
-
-
-
-.box{
-    width: 300px;
-    height: 150px;
-    background-color: green;
-    background-image: url(https://imgs.search.brave.com/K5gcDm2rh4cTJSU1PSr2UkKTNKKahwzmAhG1rLYF51E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvem9yby1waWN0/dXJlcy04bnYwYzBu/YjdyaWpmNnoyLmpw/Zw);
-    background-size: auto;
-    background-repeat: no-repeat;
-    /* opacity: 0.5; */
-    /* transform: scale(5); */
-    /* transform-origin:100% 100%; */
-
-    /* transform: rotate(45deg); */
-    /* transform: translateX(100px);
-    transform: translateY(100px); */
-
-    transform: translateX(50%);
-    /* margin-top: 100px; */
-
-
-    position:absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) ;
-
-
-    box-shadow: 10px 10px 4px rgba(0, 0, 0,0.4);
-    text-shadow:2px 2px rgb(239, 58, 58) ;
+img{
+    width: 100%;
+    border-radius: 10px;
 }
 
 
 h1{
-    text-shadow: 2px 2px 4px #ff0000;
+    color: #1f3251;
 }
+
+p{
+    color: hsl(220, 15%, 55%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
